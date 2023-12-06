@@ -35,7 +35,7 @@ El análisis exploratorio de datos (EDA) se centró en comprender las relaciones
   - Las avenidas, especialmente en comunas 1 y 4, son los lugares con más siniestros.
 ![Ubicacion](images/o5.png)
 
-- **Análisis Participativo:**
+- **Análisis de Participantes:**
   - Los vehículos más frecuentes en los siniestros son motos y peatones, siendo los autos y colectivos los más involucrados como acusados.
 
 ![Victimas](images/o34.png)
