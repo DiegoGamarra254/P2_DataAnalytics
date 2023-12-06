@@ -20,6 +20,7 @@ La ciudad de Buenos Aires, con su alta densidad poblacional y tráfico, enfrenta
 Para este análisis, se trabajó con un dataset que contiene información detallada sobre los siniestros viales y las víctimas involucradas. Se realizó un proceso de ETL (Extracción, Transformación y Carga) para limpiar y estructurar los datos, eliminando nulos, duplicados y realizando transformaciones necesarias. El resultado se almacenó en un archivo CSV llamado `homicidios1.csv`.
 
 El análisis exploratorio de datos (EDA) se centró en comprender las relaciones entre variables, identificar patrones y destacar tendencias a lo largo del tiempo.
+![CABA](images/o3.png)
 
 ### Resultados del Análisis 
 
@@ -30,12 +31,17 @@ El análisis exploratorio de datos (EDA) se centró en comprender las relaciones
 ![Evolución temporal](images/o2.png)
 - **Análisis Demográfico y Geográfico:**
   - Las víctimas mayoritarias son hombres entre 20 y 40 años.
+![Edades](images/output.png)
   - Las avenidas, especialmente en comunas 1 y 4, son los lugares con más siniestros.
-
+![Ubicacion](images/o5.png)
 
 - **Análisis Participativo:**
   - Los vehículos más frecuentes en los siniestros son motos y peatones, siendo los autos y colectivos los más involucrados como acusados.
+
+![Victimas](images/o34.png)
   - Los horarios críticos coinciden con el ingreso y salida laboral, almuerzo y salidas nocturnas durante los fines de semana.
+
+![horarios](images/output1.png)
 
 ### Indicadores de Rendimiento Clave (KPI) 
 
@@ -48,18 +54,19 @@ Se propusieron KPI para evaluar el rendimiento y establecer objetivos concretos:
    - Se focaliza en la disminución de siniestros mortales con víctimas en moto.
 
 
-### Dashboard y Visualización 
+### Visualización 
+Después del Análisis exploratorio se realizó un análisis mucho más enfocado en los puntos clave, este análisis fue desarrollado en PowerBI obteniendo un dashboard con la información analizada y procesada.
 
-![KPI](/images/kpis.PNG)
+
 
 ## Conclusiones 
 
-A partir del análisis exahustivo de los datos y su posterior visualización a través del dashboard en PowerBi; se concluye que las víctimas fatales por siniestros de tránsito entre los años 2016 a 2021 fueron 717 personas.
-Que la franja horaria de mayor problemática es la del ingreso laboral (5-9h), la del almuerzo (12-14h)y la del regreso a casa(17-18h); aunque durante los fines de semana (Sábado y Domingo), los accidentes se manifiestan en los horarios de salidas nocturnas (3-7h).
-Las víctimas son en un 76% Masculinas, y sus edades entre el rango etario de 20-40 años.
-Además en los siniestros de Masculinos los mayores casos se dan en su rol como Conductor.
-Los tipos de vehículos más frecuentes con Víctimas son las Motos y luego los Peatones; mientras que para los Acusados los vehículos más frecuentes son Autos, Colectivos y cargas.
-En cuanto a el lugar donde se producen los siniestros, las Avenidas a lo largo de los años han sido los espacios de mayor cantidad de siniestros; y en Cruce mayor a las calles. 
-Se observo un patrón en relación con la variable Edad, Hora y Sexo. Donde los Masculinos de entre 20 a 40 años y en los horarios de entrada y salida laboral o para el caso de los fines de semana en horas de salidas nocturnas.
+- Se observa que el indicador clave de reducción de fallecimientos en motociclistas refleja un incumplimiento de las metas establecidas. Por lo tanto, se propone una estrategia centrada en la educación de motociclistas y la aplicación de medidas preventivas específicas para este grupo, con el objetivo de abordar y revertir esta tendencia.
+- Aunque se ha logrado cumplir con el objetivo del 10% de reducción de víctimas en comparación con el mes anterior al cierre de 2021, se observa una tendencia a la baja en los primeros semestres. Se sugiere implementar medidas de manera consistente a lo largo del año para mantener la efectividad en la reducción de la tasa de incidentes, asegurando resultados equitativos en todos los periodos.
+- Dado que la mayoría de los incidentes involucran a autos, cargas y pasajeros, se propone fortalecer las medidas preventivas específicas para este tipo de vehículos. Esto podría incluir campañas de concientización y controles de cumplimiento de normativas viales.
+- Se recomienda intensificar las medidas de prevención, protección y respuesta rápida en las calles con mayor incidencia de eventos, destacando Av. Gral Paz. La implementación de tecnologías avanzadas y patrullajes estratégicos puede ser clave para mejorar la seguridad en estas áreas críticas.
+- Se considera necesario llevar a cabo controles más rigurosos en las vías, especialmente durante los fines de semana, entre las 5 y 7 de la mañana. Este horario presenta un mayor riesgo, y el refuerzo de controles en este periodo puede contribuir significativamente a la reducción de incidentes viales.
+
+Estas recomendaciones buscan no solo abordar los desafíos identificados en los indicadores, sino también proporcionar un enfoque estratégico y equitativo para mejorar la seguridad vial en la Ciudad de Buenos Aires.
 
 
