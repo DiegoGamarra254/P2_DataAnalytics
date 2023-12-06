@@ -1,5 +1,6 @@
-# P2_DataAnalytics
+## P2_DataAnalytics
 # Proyecto de Análisis de Siniestros Viales en CABA con Víctimas Fatales (2016-2021)
+*Por Diego Gamarra Rivera*
 
 ## Presentación del Proyecto 
 
@@ -25,7 +26,7 @@ El análisis exploratorio de datos (EDA) se centró en comprender las relaciones
 - **Análisis Temporal:**
   - Se identificó una tendencia de siniestros viales que inicialmente era alta y estacionaria entre 2016 y 2018, seguida por una disminución durante la pandemia en 2020. En 2021, se observó un pico en diciembre.
   - Los meses con más víctimas fatales fueron diciembre y noviembre, mientras que los sábados y domingos registraron la mayor cantidad de siniestros.
-
+![Evolución temporal](images/o2.jpg)
 - **Análisis Demográfico y Geográfico:**
   - Las víctimas mayoritarias son hombres entre 20 y 40 años.
   - Las avenidas, especialmente en comunas 1 y 4, son los lugares con más siniestros.
